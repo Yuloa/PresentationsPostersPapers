@@ -1,0 +1,33 @@
+\BOOKMARK [1][-]{section.1.1}{1.1 Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.2}{1.2 Determining the CP-even fraction of D \0404}{}% 2
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Short theory}{section.1.2}% 3
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Binned K \0400S \040/ K \0400L \040 vs 4 \040yields}{section.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2.1}{1.2.2.1 Determination of number of flat and continuum background events}{subsection.1.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.2.2}{1.2.2.2 Determination of peaking bkg events}{subsection.1.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.2.3}{1.2.2.3 Determination of the signal efficiency}{subsection.1.2.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 Fit for F+\(4\)}{section.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.3.1}{1.2.3.1 Input from former analyses}{subsection.1.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.3.2}{1.2.3.2 Results F+ }{subsection.1.2.3}% 10
+\BOOKMARK [0][]{chapter.2}{2 RichAlignment}{}% 11
+\BOOKMARK [1][-]{section.2.1}{2.1 Introduction}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{2.2 The LHCb detector}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 RICH optical systems}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{2.3 Method of alignment for the RICH optical system}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Track and photon selection}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Method for fitting the \040vs. \040distributions}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Magnification factors}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Determining individual mirror misalignments}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{2.4 The Online Alignment Framework}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Dataflow in Run II}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 HLT1 selection for the RICH mirror alignment}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 The Alignment Farm}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 The Control Flow}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.5}{2.4.5 Implementation of the RICH Mirror Alignment for Run II}{section.2.4}% 25
+\BOOKMARK [1][-]{section.2.5}{2.5 Results}{chapter.2}% 26
+\BOOKMARK [1][-]{section.3.6}{3.6 Publications, talks, posters}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Publications}{section.3.6}% 28
+\BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Talks}{section.3.6}% 29
+\BOOKMARK [2][-]{subsection.3.6.3}{3.6.3 Posters}{section.3.6}% 30
+\BOOKMARK [1][-]{section.3.7}{3.7 Future work}{chapter.2}% 31
+\BOOKMARK [1][-]{section.3.8}{3.8 Thesis outline}{chapter.2}% 32
+\BOOKMARK [0][]{chapter*.16}{Bibliography}{}% 33

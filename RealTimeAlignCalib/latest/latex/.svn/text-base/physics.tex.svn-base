@@ -1,0 +1,8 @@
+\section{Benefits to Physics}
+textcolor{red}{maybe here more on trigger efficiency or put here high level quantity like mass or time or pid..... to be decided. When the different sections are ready we can decide if we want to move some performance in this section.\\
+
+How this reflects in "physics" (comparison run1/run2 or with/without the update alignment/calibration) \\
+for example the rate of the D->Kpipipi \\
+stability of mass plot? or PV resolution? or proper time/ip chi2/ ip? \\
+systematic? due to online/offline difference or alignment variation (efficiency or ip selection or difference acceptance online/offline)
+}

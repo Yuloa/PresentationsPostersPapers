@@ -1,0 +1,105 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex	\usepackage{setspace}
+\usepackage{xcolor}
+\definecolor{cred1}{HTML}{CA0614}
+\definecolor{cred2}{HTML}{FD3232}	
+\usepackage{amssymb}
+			% Activate to display a given date or no date
+
+\begin{document}
+\large
+\begin{eqnarray*}
+A(B \rightarrow D^0(\rightarrow f_D) K^- )= A_B \cdot ( A_{D^0}\, +\, r_B \, e^{i(\delta_B - { \color{cred2} \mathbf{\gamma}})} \,A_{\bar{D^0}})
+\end{eqnarray*}
+
+\begin{eqnarray*}
+d \Gamma(B \rightarrow D^0(\rightarrow f_D) K^- ) \propto & A_B^2 \cdot \Big(&  A_{D^0}^2\, +  \,r_B^2 \, A_{\bar{D^0}}^2\, \\
+& + & \, 2 r_B\,  \mathbb{Re}(A_{D^0} A_{\bar{D^0}}^* \ e^{-i(\delta_B - { \color{cred2} \mathbf{\gamma}})}) \Big) dp
+\end{eqnarray*}
+
+\begin{eqnarray*}
+A_{D^0} = A_{D^0}\left (\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\right )
+\end{eqnarray*}
+
+\begin{eqnarray*}
+A_{\bar{D^0}} = A_{\bar{D^0}} \left (\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\right )
+\end{eqnarray*}
+
+\large
+\begin{eqnarray*}
+A_{\bar{D^0}}(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})) & = & A_{D^0 }(\pi^+(\mathbf{-\vec{p_3}}) \pi^+(\mathbf{-\vec{p_4}}) \pi^-(\mathbf{-\vec{p_1}}) \pi^-(\mathbf{-\vec{p_2}}))\\
+  \end{eqnarray*}
+
+\normalsize
+\begin{eqnarray*}
+\frac{A_{D^0}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big)}{A_{\bar{D^0}}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big)}  = \frac{\big|A_{D^0}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big)\big|}{\big|A_{\bar{D^0}}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big)\big|} \    e^{i \Delta \delta\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big)}\\
+  \end{eqnarray*}
+
+\begin{eqnarray*}
+d \Gamma(B \rightarrow D^0(\rightarrow f_D) K^- ) \propto A_B^2 \cdot \left( A_{D^0}^2\, +  \,r_B^2 \, A_{\bar{D^0}}^2\, + \, 2 r_B\,  \mathbb{Re}(A_{D^0} A_{\bar{D^0}}^* \ e^{-i(\delta_B - { \color{cred2} \mathbf{\gamma}})}) \right) dp
+\end{eqnarray*}
+
+ \scriptsize
+
+\begin{eqnarray*}
+d \Gamma(B \rightarrow (\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4}))_D K^- ) \propto & A_B^2 \cdot \Bigg( & A^2_{D^0}(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})) \,
+ + \,r_B^2 \, A^2_{D^0}(\pi^+(\vec{p_3}) \pi^+(\vec{p_4}) \pi^-(\vec{p_1}) \pi^-(\vec{p_2})) \\
+&& + 2 r_B \, A^2_{D^0}(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})) \, A^2_{D^0}(\pi^+(\vec{p_3}) \pi^+(\vec{p_4}) \pi^-(\vec{p_1}) \pi^-(\vec{p_2}) \\
+&& \big[ \cos(\Delta \delta (\vec{p_1},\vec{p_2}, \vec{p_3}, \vec{p_4})) \cos (\delta_B - \gamma)\, +\, \sin(\Delta \delta (\vec{p_1},\vec{p_2}, \vec{p_3}, \vec{p_4})) \sin (\delta_B - \gamma)\big ] \Bigg) dp
+\end{eqnarray*}
+
+\begin{eqnarray*}
+c_i = \frac{1}{N} \int_{p_i}^{p_i + \Delta p} dp \ A_{D^0}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big) \ A_{D^0}\big(\pi^+(\vec{p_3}) \pi^+(\vec{p_4}) \pi^-(\vec{p_1}) \pi^-(\vec{p_2})\big)\cos\left(\Delta \delta (\vec{p_1},\vec{p_2}, \vec{p_3}, \vec{p_4})\right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+s_i =  \frac{1}{N} \int_{p_i}^{p_i + \Delta p} dp  \ A_{D^0}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big) \ A_{D^0}\big(\pi^+(\vec{p_3}) \pi^+(\vec{p_4}) \pi^-(\vec{p_1}) \pi^-(\vec{p_2})\big)\sin\left(\Delta \delta (\vec{p_1},\vec{p_2}, \vec{p_3}, \vec{p_4})\right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+T_i = \int_{p_i}^{p_i + \Delta p} dp  \ A^2_{D^0}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big)
+\end{eqnarray*}
+
+
+\begin{eqnarray*}
+d\Gamma}{d p_i + \Delta p} \propto A_B^2 \left( T_i \, + \, r_B^2 T_{\bar{i}} \, + \, 2 r_B \, \big[ c_i \cos(\delta_B - \gamma) + s_i \sin(\delta_B - \gamma)\big]  \right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+d\Gamma_i \propto  2 r_B \, \big[ c_i \cos(\delta_B - \gamma) + s_i \sin(\delta_B - \gamma)\big]  
+\end{eqnarray*}
+
+\begin{eqnarray*}
+M_i^{\pm} = h_{CP^{\pm}} \left( K_i \pm 2 c_i \sqrt{K_i K_{\bar{i}}} + K_{\bar{i}}\right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+M_{ij} = h_{corr} \left( K_i K_{\bar{j}} + K_{\bar{i}} K_{j} - 2 \sqrt{K_i K_{\bar{j}} K_{\bar{i}} K_j} \left(c_i c_j + s_i s_j \right) \right) 
+\end{eqnarray*}
+
+
+\begin{eqnarray*}
+d \Gamma(B \rightarrow (\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4}))_D K^- ) \propto 2 r_B \, A^2_{D^0}\big(\pi^+(\vec{p_1}) \pi^+(\vec{p_2}) \pi^-(\vec{p_3}) \pi^-(\vec{p_4})\big) \, A^2_{D^0}\big(\pi^+(\vec{p_3}) \pi^+(\vec{p_4}) \pi^-(\vec{p_1}) \pi^-(\vec{p_2})\big) \\
+\big[ \cos(\Delta \delta (\vec{p_1},\vec{p_2}, \vec{p_3}, \vec{p_4})) \cos (\delta_B - \gamma)\, +\, \sin(\Delta \delta (\vec{p_1},\vec{p_2}, \vec{p_3}, \vec{p_4})) \sin (\delta_B - \gamma)\big ]  dp
+\end{eqnarray*}
+
+\begin{eqnarray*}
+c_i = \frac{1}{N} \int_{p_i}^{p_i + \Delta p} dp \ \frac{d\Phi}{dp} \ A_{D^0} \  \overline{A_{D^0}} \ \cos\left(\Delta \delta\right)
+\end{eqnarray*}
+
+\begin{eqnarray*}
+s_i =  \frac{1}{N} \int_{p_i}^{p_i + \Delta p} dp \  \frac{d\Phi}{dp} \  A_{D^0} \ \overline{A_{D^0}} \ \sin\left(\Delta \delta \right)
+\end{eqnarray*}
+
+\huge
+\begin{eqnarray*}
+d\Gamma_i \ \propto \  c_i \cos(\delta_B - \gamma) + s_i \sin(\delta_B - \gamma)
+\end{eqnarray*}
+
+
+\end{document}  

@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The LHCb detector}{}% 2
+\BOOKMARK [1][-]{section.3}{Datataking Strategy}{}% 3
+\BOOKMARK [1][-]{section.4}{The Physics Impact of Alignment and Calibration}{}% 4
+\BOOKMARK [1][-]{section.5}{The Online Alignment Framework}{}% 5
+\BOOKMARK [2][-]{subsection.5.1}{Data Flow}{section.5}% 6
+\BOOKMARK [2][-]{subsection.5.2}{Control Flow}{section.5}% 7
+\BOOKMARK [1][-]{section.6}{Alignment and Calibration Tasks}{}% 8
+\BOOKMARK [1][-]{section.7}{Alignment and Calibration Tasks}{}% 9
+\BOOKMARK [2][-]{subsection.7.1}{Tracking Alignment}{section.7}% 10
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Alignment method}{subsection.7.1}% 11
+\BOOKMARK [3][-]{subsubsection.7.1.2}{VELO Alignment}{subsection.7.1}% 12
+\BOOKMARK [3][-]{subsubsection.7.1.3}{Tracker Alignment}{subsection.7.1}% 13
+\BOOKMARK [3][-]{subsubsection.7.1.4}{Muon Alignment}{subsection.7.1}% 14
+\BOOKMARK [2][-]{subsection.7.2}{RICH Mirror Alignment}{section.7}% 15
+\BOOKMARK [2][-]{subsection.7.3}{Rich Calibration}{section.7}% 16
+\BOOKMARK [2][-]{subsection.7.4}{OT Calibration}{section.7}% 17
+\BOOKMARK [2][-]{subsection.7.5}{Calorimeter Calibration}{section.7}% 18
+\BOOKMARK [3][-]{subsubsection.7.5.1}{Calibration with Relative Occupancy and LEDs}{subsection.7.5}% 19
+\BOOKMARK [3][-]{subsubsection.7.5.2}{Absolute Calibration for HCAL with Cs source}{subsection.7.5}% 20
+\BOOKMARK [3][-]{subsubsection.7.5.3}{Absolute Calibration for ECAL with pi0}{subsection.7.5}% 21
+\BOOKMARK [1][-]{section.8}{Scheduling}{}% 22
+\BOOKMARK [1][-]{section.9}{Propagation of Constants}{}% 23
+\BOOKMARK [1][-]{section.10}{Benefits to Physics}{}% 24
+\BOOKMARK [1][-]{section.11}{Conclusion}{}% 25
+\BOOKMARK [1][-]{section*.17}{References}{}% 26

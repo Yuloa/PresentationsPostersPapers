@@ -1,0 +1,45 @@
+\section{Propagation of Constants}
+
+\begin{table}
+\begin{tabular}{l l}
+  Task                  & Used by                 \\ \hline
+  Velo alignment        & HLT1, HLT2 and offline  \\ 
+  tracker alignment     & HLT1, HLT2 and offline  \\
+  muon alignment        & L0 Muon and monitoring  \\
+  ECAL calibration      & update of ECAL high voltages \\
+  RICH mirror alignment & HLT2 and offline        \\
+  RICH calibrations     & HLT2 and offline        \\
+  OT calibration        & HLT1, HLT2 and offline
+\end{tabular}
+\caption{Processing phases or detector systems that require the result of
+  calibration and alignment tasks.}
+\label{tab:results_needed}
+\end{table}
+
+Once a calibration or alignment task has completed, it writes the constants it
+produced to one or more XML file. To allow propagation of these constants to the
+data processing tasks, such tasks have been configured to read relevant
+calibration and alignment constants from these XML files. Whenever a task
+receives an event that belongs to a new data taking period, a new set of XML
+files is read to obtain the latest constants. 
+
+\Cref{tab:results_needed} gives on overview of where constants are used. The
+different phases where constants are needed broadly fall into three categories:
+HLT1, HLT2 and offline; HLT2 and offline; and detector subsystems. If constants
+are used in HLT1, HLT2 and offline, they are used across all of these phases
+starting from a fixed point in time after the result has been obtained. This
+usually means the start of the next data-taking period of up to an hour. If
+constants are not needed in HLT1, but only by HLT2 and offline, HLT2 will not
+start processing data from a given data-taking period until the constants for
+that data-taking period have been produced. Results of tasks used only by
+subsystems are interpreted by subsystem experts and used to make updates to the
+configuration of those system if and when required.
+
+If constants are needed for offline processing, they are added to the
+conditions database as soon as all constants for a given data taking period are
+available. Once the constants have been added to the conditions database, a
+cross-check is performed by configuring one task to read the constants from the
+XML files, another task to read them from the conditions database, and comparing
+the constants they obtain. If any mismatches are detected, the corresponding
+data taking period is not declared ready for offline processing. Experts then
+investigate the source of the mismatches and resolve the problem.

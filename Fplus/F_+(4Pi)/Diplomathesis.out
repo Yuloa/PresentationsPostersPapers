@@ -1,0 +1,40 @@
+\BOOKMARK [0][]{chapter.1}{1 Overview}{}% 1
+\BOOKMARK [0][]{chapter.2}{2 Binned K \0400S \040 vs 4 \040yields}{}% 2
+\BOOKMARK [1][-]{section.2.1}{2.1 Overview}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{2.2 Raw number of selected 4 \040vs K \0400S \040 events }{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{2.3 Determination of number of peaking background events}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Total number of peaking background events in selected data sample}{section.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Peaking background events per bin}{section.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{2.3.2.1 Cleanness of K \0400S \040 vs K \0400S \040 sample}{subsection.2.3.2}% 8
+\BOOKMARK [1][-]{section.2.4}{2.4 Determination of number of flat background events}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{2.5 Determination of the signal selection-efficiency}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.6}{2.6 Bkg substracted, efficiency corrected, rescaled signal yields}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.7}{2.7 Summary}{chapter.2}% 12
+\BOOKMARK [0][]{chapter.3}{3 Binned K \0400L \040 vs 4 \040yields }{}% 13
+\BOOKMARK [1][-]{section.3.1}{3.1 Overview}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{3.2 Raw number of selected 4 \040vs K \0400L \040 events }{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{3.3 Determination of number of peaking background events}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Total number of peaking background events in selected data sample}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Distribution of K \0400L \040 vs K \0400S \040 background events over bins}{section.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.2.1}{3.3.2.1 Selection-bias}{subsection.3.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Distribution of K \0400S \040 vs 4 \040background events over bins}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Resulting number of peaking background events in selected data sample}{section.3.3}% 21
+\BOOKMARK [1][-]{section.3.4}{3.4 Determination of number of flat and continuum background events}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.5}{3.5 Determination of the signal selection-efficiency}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.6}{3.6 Resulting MMi}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.7}{3.7 Summary}{chapter.3}% 25
+\BOOKMARK [0][]{chapter.4}{4 Systematic uncertainties}{}% 26
+\BOOKMARK [1][-]{section.4.1}{4.1 Sources of systematic uncertainties}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Non-flat flat and continuum bkg}{section.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Peaking bkg distribution}{section.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{4.1.2.1 Limited data and MC sample}{subsection.4.1.2}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{4.1.2.2 Cleanness of data sample}{subsection.4.1.2}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.2.3}{4.1.2.3 Unknown BR\(D \0400K \0400L \040\)}{subsection.4.1.2}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Multiple candidate selection}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.4}{4.1.4 Dalitz plot acceptance}{section.4.1}% 34
+\BOOKMARK [1][-]{section.4.2}{4.2 Effects on the number of signal events in 4 \040vs K \0400S \040}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{4.3 Effects on the number of signal events in 4 \040vs K \0400L \040}{chapter.4}% 36
+\BOOKMARK [0][]{chapter.5}{5 Fit for F+}{}% 37
+\BOOKMARK [1][-]{section.5.1}{5.1 Fractional flavour-tagged K \0400S \040 yields Ti}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.2}{5.2 Fractional flavour-tagged K \0400L \040 yields T'i}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.3}{5.3 Results F+ }{chapter.5}% 40

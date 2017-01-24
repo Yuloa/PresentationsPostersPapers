@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The LHCb detector}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{RICH optical systems}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Method of alignment for the RICH optical system}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Magnification factors}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Alignment parameters}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Fitting method}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Determining individual mirror misalignments}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.4.1}{RICH1 alignment}{subsection.3.4}% 9
+\BOOKMARK [3][-]{subsubsection.3.4.2}{RICH2 alignment}{subsection.3.4}% 10
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Improvement of the mathematical schema}{subsection.3.4}% 11
+\BOOKMARK [1][-]{section.4}{The Online Alignment Framework}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Dataflow in Run II}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{HLT1 selection for the RICH mirror alignment}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{The Alignment Farm}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.4}{The Control Flow}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.5}{Implementation of the RICH Mirror Alignment for Run II}{section.4}% 17
+\BOOKMARK [1][-]{figure.caption.16}{References}{}% 18

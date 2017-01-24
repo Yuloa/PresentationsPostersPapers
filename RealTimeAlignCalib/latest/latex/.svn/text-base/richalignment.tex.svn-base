@@ -1,0 +1,52 @@
+\subsection{Rich Mirror Alignment}
+\textcolor{red}{This should include, description of the method (detector description
+should be included in previous section), data selected, time required 
+for this task, performance (before/after alignment) and stability of the constants. 
+The overall performance, maybe also stability of the overall performance (PID 
+or/and cherenkov angle resolution) could be together for calibration and alignment.}
+
+Both RICH detectors have two sets of mirrors: photons are reflected off a
+primary mirror onto a secondary mirror, from where they are deflected out of the
+LHCb acceptance onto the photon detection plane.
+%The RICH1/RICH2 optical system consists of 4/56 primary and 16/40 secondary mirrors.
+
+The RICH mirror alignment follows the same general procedure of the tracking
+alignment: there is a task performed in parallel by the analysers while the
+computation of the alignment constants is performed by the iterator on a single
+node. The RICH mirror alignment relies on the fact that a misalignment of the
+mirrors causes the Cherenkov ring on the photodetector plane to be shifted with
+respect to its expected position. The projected track coordinate is not at the
+centre of the ring, thus the Cherenkov opening angle ($\Theta$) varies as a
+function of the azimuthal angle ($\phi$) in the photodetector plane:
+\begin{equation}
+\Delta\Theta = \Theta - \Theta_0 = T_x \cos(\phi) + T_y \sin(\phi),
+\label{eq:RichMirror}
+\end{equation}
+where $T_x$ and $T_y$ are the
+% misalignments along the $x$
+%  and $y$ direction
+components of the misalignment of the projected track coordinate with respect to
+the expected position and $\Theta_0$ is the Cherenkov angle calculated from the
+momentum of the track and the refractive index of the radiator
+\cite{LHCb-DP-2012-003}.
+
+The analysers perform the photon reconstruction and fill histograms of the
+$\Delta\Theta(\phi)$ distribution for each pair of mirrors on different events.
+The iterator collects all the histograms and combines them. It fits the combined
+histogram using Equation (\ref{eq:RichMirror}) and extracts the alignment
+constants. The procedure is iterated until the variations are below a
+threshold. Figure \ref{fig:RichMirror} shows for one mirror the distribution of
+$\Delta\Theta$ as a function of $\phi$ before and after the mirror alignment.
+
+\begin{figure}[h]
+\begin{minipage}{0.5\columnwidth}
+\includegraphics[width=\columnwidth]{../figures/RichMirror1.png}
+\end{minipage}\hspace{2pc}%
+\begin{minipage}{0.5\columnwidth}
+\includegraphics[width=\columnwidth]{../figures/RichMirror2.png}
+\end{minipage} 
+\caption{\label{fig:RichMirror} Difference between the measured and
+  expected Cherenkov angle $\Delta\Theta$ as a function of the azimutal angle $\phi$ before
+  (left) and after (right) the mirror alignment for one mirror \cite{LHCb-DP-2012-003}.}
+\end{figure}
+

@@ -1,0 +1,124 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand{\mciteSetMaxWidth}[3]{\relax}
+\providecommand{\mciteSetMaxCount}[3]{\relax}
+\select@language{UKenglish}
+\@writefile{toc}{\select@language{UKenglish}}
+\@writefile{lof}{\select@language{UKenglish}}
+\@writefile{lot}{\select@language{UKenglish}}
+\citation{Alves:2008zz}
+\citation{Alves:2008zz}
+\citation{LHCb-DP-2012-003}
+\citation{LHCb-DP-2012-003}
+\citation{LHCb-DP-2014-002}
+\citation{Alves:2008zz,LHCb-DP-2014-002}
+\citation{LHCb-DP-2012-003}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\newlabel{sec:Introduction}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}The \unhbox \voidb@x \hbox {LHCb}\xspace  detector}{1}{section.2}}
+\citation{LHCB:2000aa}
+\citation{LHCb:2003ab}
+\citation{LHCB:2000aa,LHCb:2003ab}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}RICH\xspace  optical systems}{2}{subsection.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Sources of uncertainty, $\sigma $, of the measurement of a single photon Cherenkov angle for the three \unhbox \voidb@x \hbox {LHCb}\xspace  RICH radiators.\relax }}{2}{table.caption.2}}
+\newlabel{tab:RichErrors}{{1}{2}{Sources of uncertainty, $\sigma $, of the measurement of a single photon Cherenkov angle for the three \lhcb RICH radiators.\relax }{table.caption.2}{}}
+\citation{Gorisek:1999td}
+\citation{Gorisek:1999td}
+\citation{Papanestis:2008zz}
+\citation{Baldini:2006ed}
+\citation{Papanestis:2008zz,Baldini:2006ed}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  Schematic view of the LHCb RICH detectors and their optical systems: (a) side view of RICH1\xspace  and (b) top view of RICH2\xspace  . Formation of a Cherenkov ring in the lower part of RICH1\xspace  is also drawn.\relax }}{3}{figure.caption.1}}
+\@cons\caption@pkg@list{{ragged2e}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:RICH_OpticalLayout}{{1}{3}{Schematic view of the LHCb RICH detectors and their optical systems: (a) side view of \richone and (b) top view of \richtwo . Formation of a Cherenkov ring in the lower part of \richone is also drawn.\relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method of alignment for the RICH optical system}{3}{section.3}}
+\newlabel{sec:MirrorAlignmentMethod}{{3}{3}{Method of alignment for the RICH optical system}{section.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  (a) Schematic drawing of how a rotational misalignment of a RICH\xspace  mirror (primary mirror in this example) causes shift of the actual centre $P'$ of the Cherenkov ring to $P$ on the photon detector plane. The projection of the track is drawn for explanatory purpose and represents the position of the expected centre of the Cherekov ring. (b) The expected Cherenkov angle \ensuremath  {\theta _\mathrm  {Ch}}\xspace  and the reconstructed Cherenkov angle $\theta $ are displayed. $P$ marks the position of the extrapolated track projection calculated without adjustments that would compensate any misalignments of the RICH\xspace  mirrors, while $P'$ is the actual position of the centre of the ring and displaced by $\varTheta ^z$ and $\varTheta ^y$ with respect to $P'$ . Cherenkov angles $\theta $ are evaluated relative to $P$, and therefore, vary with $\phi $. The gray stripe represents area around the expected ring from which the photon hits are reconstructed. The width of this stripe is empirically chosen wide enough to cover the actual shifted (and somewhat smeared) ring of hits from a given track. Inevitably, the ``noise'' background photon hits in this area are also ``reconstructed''.\relax }}{4}{figure.caption.3}}
+\newlabel{fig:RICH_MisalignmentDiagrams}{{2}{4}{(a) Schematic drawing of how a rotational misalignment of a \rich mirror (primary mirror in this example) causes shift of the actual centre $P'$ of the Cherenkov ring to $P$ on the photon detector plane. The projection of the track is drawn for explanatory purpose and represents the position of the expected centre of the Cherekov ring. (b) The expected Cherenkov angle \thetaC and the reconstructed Cherenkov angle $\theta $ are displayed. $P$ marks the position of the extrapolated track projection calculated without adjustments that would compensate any misalignments of the \rich mirrors, while $P'$ is the actual position of the centre of the ring and displaced by $\varTheta ^z$ and $\varTheta ^y$ with respect to $P'$ . Cherenkov angles $\theta $ are evaluated relative to $P$, and therefore, vary with $\phi $. The gray stripe represents area around the expected ring from which the photon hits are reconstructed. The width of this stripe is empirically chosen wide enough to cover the actual shifted (and somewhat smeared) ring of hits from a given track. Inevitably, the ``noise'' background photon hits in this area are also ``reconstructed''.\relax }{figure.caption.3}{}}
+\newlabel{eq:DeltaTheta_ps}{{3}{4}{Method of alignment for the RICH optical system}{equation.3.3}{}}
+\citation{Gorisek:1999td}
+\newlabel{eq:theta0_y_z}{{4}{5}{Method of alignment for the RICH optical system}{equation.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Track and photon selection}{5}{subsection.3.1}}
+\newlabel{subsec:TrackSelection}{{3.1}{5}{Track and photon selection}{subsection.3.1}{}}
+\newlabel{eq:thetaC}{{5}{5}{Track and photon selection}{equation.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Overview of the entire alignment procedure. The alignment starts from a sample of events and usually from the mirror orientation given in the \unhbox \voidb@x \hbox {LHCb}\xspace  conditions database. From there high energy tracks are reconstructed under the pion hypothesis (see Section \ref  {subsec:TrackSelection}). Then the \ensuremath  {\delta \theta }\xspace  vs. $\phi $ histograms are filled for each mirror combination selected for the alignment procedure (see Section \ref  {subsec:IndivMirrAlign}) and fitted to get the misalignments on the detector plane. With these the individual mirror misalignments are determined and a new database containing the corrected mirror orientations is created. If the convergence criteria is reached the alignment procedure is finished, if the criteria has not been reached the newly made database is used for the reconstruction of the same events and the entire procedure is repeated.\relax }}{6}{figure.caption.4}}
+\newlabel{fig:RICH_Procedure}{{3}{6}{Overview of the entire alignment procedure. The alignment starts from a sample of events and usually from the mirror orientation given in the \lhcb conditions database. From there high energy tracks are reconstructed under the pion hypothesis (see Section \ref {subsec:TrackSelection}). Then the \deltatheta vs. $\phi $ histograms are filled for each mirror combination selected for the alignment procedure (see Section \ref {subsec:IndivMirrAlign}) and fitted to get the misalignments on the detector plane. With these the individual mirror misalignments are determined and a new database containing the corrected mirror orientations is created. If the convergence criteria is reached the alignment procedure is finished, if the criteria has not been reached the newly made database is used for the reconstruction of the same events and the entire procedure is repeated.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Method for fitting the \ensuremath  {\delta \theta }\xspace  vs. $\phi $ distributions}{6}{subsection.3.2}}
+\newlabel{subsec:Fitting}{{3.2}{6}{Method for fitting the \deltatheta vs. $\phi $ distributions}{subsection.3.2}{}}
+\citation{Antcheva:2011zz}
+\citation{Antcheva:2011zz}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  Cherenkov angle \ensuremath  {\theta _\mathrm  {Ch}}\xspace  against track momentum, for tracks traversing the RICH1\xspace  gaseous radiator. Muons, pions, kaons and protons are visible. As the track momentum increases, all particles tend towards the same \ensuremath  {\theta _\mathrm  {Ch}}\xspace  , known as the saturated Cherenkov angle.\relax }}{7}{figure.caption.5}}
+\newlabel{fig:saturation}{{4}{7}{Cherenkov angle \thetaC against track momentum, for tracks traversing the \richone gaseous radiator. Muons, pions, kaons and protons are visible. As the track momentum increases, all particles tend towards the same \thetaC , known as the saturated Cherenkov angle.\relax }{figure.caption.5}{}}
+\newlabel{eq:Delta_theta}{{6}{7}{Method for fitting the \deltatheta vs. $\phi $ distributions}{equation.3.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  \ensuremath  {\delta \theta }\xspace  against $\phi $ fitted slice-by-slice along $\phi $ with the function~\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:Delta_theta}\unskip \@@italiccorr )}} approximating the position of the Gaussian peaks on the $\phi \text  {-}\delta \theta $~plane for the combination of primary mirror 0 and secondary mirror 1 of the RICH1\xspace  . The originally misaligned mirror combination is represented on the left while the right plot shows the same mirror combination after the alignment procedure.\relax }}{7}{figure.caption.6}}
+\newlabel{fig:Rich1Mirr0001dThetavphiRec}{{5}{7}{\deltatheta against $\phi $ fitted slice-by-slice along $\phi $ with the function~\eqref {eq:Delta_theta} approximating the position of the Gaussian peaks on the $\phi \text {-}\delta \theta $~plane for the combination of primary mirror 0 and secondary mirror 1 of the \richone . The originally misaligned mirror combination is represented on the left while the right plot shows the same mirror combination after the alignment procedure.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Magnification factors}{8}{subsection.3.3}}
+\newlabel{subsec:Magnification}{{3.3}{8}{Magnification factors}{subsection.3.3}{}}
+\newlabel{eq:magy}{{8}{8}{Magnification factors}{equation.3.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Determining individual mirror misalignments}{8}{subsection.3.4}}
+\newlabel{subsec:IndivMirrAlign}{{3.4}{8}{Determining individual mirror misalignments}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}RICH1\xspace  alignment}{8}{subsubsection.3.4.1}}
+\newlabel{subsec:Rich1Align}{{3.4.1}{8}{\richone alignment}{subsubsection.3.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  RICH1\xspace  mirror numbering scheme and reflection point distribution of photons off RICH1\xspace  primary mirrors (left) and secondary mirrors (right). The photon population across mirrors is not uniform with the higher populated mirrors laying closest to the beam-pipe.\relax }}{9}{figure.caption.7}}
+\newlabel{fig:RICH1_MirrorNumbering}{{6}{9}{\richone mirror numbering scheme and reflection point distribution of photons off \richone primary mirrors (left) and secondary mirrors (right). The photon population across mirrors is not uniform with the higher populated mirrors laying closest to the beam-pipe.\relax }{figure.caption.7}{}}
+\newlabel{eq:zeroQuadrantMirrorTilts}{{3.4.1}{9}{\richone alignment}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}RICH2\xspace  alignment}{9}{subsubsection.3.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  RICH2\xspace  mirror segmentation numbering scheme, viewed along the beam with the beampipe at the center.\relax }}{10}{figure.caption.8}}
+\newlabel{fig:RICH2_MirrorNumbering}{{7}{10}{\richtwo mirror segmentation numbering scheme, viewed along the beam with the beampipe at the center.\relax }{figure.caption.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  The 47 chosen $p,s$ (primary,secondary) mirror combinations grouped by primary mirror for the left-hand side of RICH2\xspace  .\relax }}{10}{table.caption.10}}
+\newlabel{tab:ChosenConbinationsPri}{{2}{10}{The 47 chosen $p,s$ (primary,secondary) mirror combinations grouped by primary mirror for the left-hand side of \richtwo .\relax }{table.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  Illustration of how the primary and secondary mirrors of the left half of RICH2\xspace  are linked in order to align them with respect to each other starting by fixing primary mirror 12.\relax }}{11}{figure.caption.9}}
+\newlabel{fig:RICH2_MirrorLinking}{{8}{11}{Illustration of how the primary and secondary mirrors of the left half of \richtwo are linked in order to align them with respect to each other starting by fixing primary mirror 12.\relax }{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces  The 47 chosen $p,s$ (primary,secondary) mirror combinations grouped by secondary mirrors for the left-hand side of RICH2\xspace  .\relax }}{11}{table.caption.11}}
+\newlabel{tab:ChosenConbinationsSec}{{3}{11}{The 47 chosen $p,s$ (primary,secondary) mirror combinations grouped by secondary mirrors for the left-hand side of \richtwo .\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}The Online Alignment Framework}{11}{section.4}}
+\newlabel{sec:OnlineAlignmentFramework}{{4}{11}{The Online Alignment Framework}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dataflow in Run II}{11}{subsection.4.1}}
+\newlabel{subsec:Dataflow}{{4.1}{11}{Dataflow in Run II}{subsection.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \unhbox \voidb@x \hbox {LHCb}\xspace  dataflow for Run I (left) and Run II (right). In Run II the data is buffered after HLT1\xspace  and an alignment is performed for each fill. The HLT2\xspace  will then process the buffered events with the updated alignment constants.\relax }}{12}{figure.caption.12}}
+\newlabel{fig:dataflow}{{9}{12}{\lhcb dataflow for Run I (left) and Run II (right). In Run II the data is buffered after \hltone and an alignment is performed for each fill. The \hlttwo will then process the buffered events with the updated alignment constants.\relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}HLT1\xspace  selection for the RICH\xspace  mirror alignment}{12}{subsection.4.2}}
+\newlabel{subsec:HltForRich}{{4.2}{12}{\hltone selection for the \rich mirror alignment}{subsection.4.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Trigger criteria for the HLT1\xspace  line for RICH1\xspace  and RICH2\xspace  . Events that are accepted by these trigger lines need to have at least one track that satisfies the cuts listed below.\relax }}{13}{table.caption.13}}
+\newlabel{tab:HltCuts}{{4}{13}{Trigger criteria for the \hltone line for \richone and \richtwo . Events that are accepted by these trigger lines need to have at least one track that satisfies the cuts listed below.\relax }{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}The Alignment Farm}{13}{subsection.4.3}}
+\newlabel{subsec:AlignmentFarm}{{4.3}{13}{The Alignment Farm}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}The Control Flow}{13}{subsection.4.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Example of one component within a system functioning under the principle of a finite state machine. The boxes show the states the component is in while the arrows show the commands the component gets from the run control.\relax }}{14}{figure.caption.14}}
+\newlabel{fig:states}{{10}{14}{Example of one component within a system functioning under the principle of a finite state machine. The boxes show the states the component is in while the arrows show the commands the component gets from the run control.\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Implementation of the RICH\xspace  Mirror Alignment for Run II}{14}{subsection.4.5}}
+\newlabel{subsec:implementation}{{4.5}{14}{Implementation of the \rich Mirror Alignment for Run II}{subsection.4.5}{}}
+\bibstyle{LHCb}
+\bibdata{SoftwareMirrorAlignment}
+\bibcite{Alves:2008zz}{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Interplay between the iterator, one example analyser and the run control during the RICH\xspace  alignment procedure. The analysers reconstruct the data and produce the histograms that the iterator evaluates. The run control makes sends commands to the iterator and the analysers to make sure the alignment procedure happens in the necessary sequence. \relax }}{15}{figure.caption.15}}
+\newlabel{fig:runcontrol}{{11}{15}{Interplay between the iterator, one example analyser and the run control during the \rich alignment procedure. The analysers reconstruct the data and produce the histograms that the iterator evaluates. The run control makes sends commands to the iterator and the analysers to make sure the alignment procedure happens in the necessary sequence. \relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{References}{15}{figure.caption.15}}
+\bibcite{LHCb-DP-2012-003}{2}
+\bibcite{LHCb-DP-2014-002}{3}
+\bibcite{LHCB:2000aa}{4}
+\bibcite{LHCb:2003ab}{5}
+\bibcite{Gorisek:1999td}{6}
+\bibcite{Papanestis:2008zz}{7}
+\bibcite{Baldini:2006ed}{8}
+\bibcite{Antcheva:2011zz}{9}
+\mciteSetMaxCount{main}{bibitem}{9}
+\mciteSetMaxCount{main}{subitem}{1}
+\mciteSetMaxWidth{main}{bibitem}{385020}
+\mciteSetMaxWidth{main}{subitem}{0}

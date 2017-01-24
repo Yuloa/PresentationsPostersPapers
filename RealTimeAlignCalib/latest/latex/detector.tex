@@ -1,0 +1,50 @@
+\section{The LHCb detector}
+\label{sec:Detector}
+\textcolor{red}{It is needed a more detailed detector description to be able
+to understand all the different alignment and calibration task description. To be
+see for example if in the detector peformance paper we have a better or more 
+complete description.}
+
+The \lhcb detector~\cite{Alves:2008zz,LHCb-DP-2014-002} is a single-arm forward
+spectrometer covering the \mbox{pseudorapidity} range $2<\eta <5$,
+designed for the study of particles containing \bquark or \cquark
+quarks. The detector coordinate system is such that \textbf{z} is along the beamline and
+\textbf{x} is along the horizontal bending plane. The detector includes a high-precision tracking system
+consisting of a silicon-strip vertex detector (\velo) surrounding the $pp$
+interaction region~\cite{LHCb-DP-2014-001}\verb!*!, a large-area silicon-strip detector located
+upstream of a dipole magnet with a bending power of about
+$4{\rm\,Tm}$, and three stations of silicon-strip detectors (\st) and straw
+drift tubes~\cite{LHCb-DP-2013-003}\verb!*! (\ot) placed downstream of the magnet.
+The tracking system provides a measurement of momentum, \ptot, of charged particles with
+a relative uncertainty that varies from 0.5\% at low momentum to 1.0\% at 200\gevc.
+The minimum distance of a track to a proton-proton collision (primary vertex),
+the impact parameter, is measured with a resolution of $(15+29/\pt)\mum$,
+where \pt is the component of the momentum transverse to the beam, in\,\gevc.
+Different types of charged hadrons are distinguished using information
+from two ring-imaging Cherenkov detectors~\cite{LHCb-DP-2012-003}\verb!*!. 
+Photons, electrons and hadrons are identified by a calorimeter system consisting of
+scintillating-pad (\spd) and preshower detectors, an electromagnetic
+calorimeter and a hadronic calorimeter. Muons are identified by a
+system composed of alternating layers of iron and multiwire
+proportional chambers~\cite{LHCb-DP-2012-002}\verb!*!.
+%The online event selection is performed by a trigger~\cite{LHCb-DP-2012-004}\verb!*!, 
+%which consists of a hardware stage, based on information from the calorimeter and muon
+%systems, followed by a software stage, which applies a full event
+%reconstruction.
+The \lhcb detector datataking is divided into fills and runs. A fill is a single period
+of proton-proton collisions delimited by the announcement of stable beam conditions and
+the dumping of the beam by the \lhc. A fill is subdivided into runs, each of which lasts
+a maximum of one hour.
+
+Detector simulation has been used in the tuning of most reconstruction
+and selection algorithms discussed in this paper. In simulated LHCb events,
+$pp$ collisions are generated using \pythia~\cite{Sjostrand:2006za,*Sjostrand:2007gs}
+with a specific \lhcb configuration~\cite{LHCb-PROC-2010-056}.  Decays of hadronic particles
+are described by \evtgen~\cite{Lange:2001uf}, in which final-state
+radiation is generated using \photos~\cite{Golonka:2005pn}. The
+interaction of the generated particles with the detector, and its response,
+are implemented using the \geant
+toolkit~\cite{Allison:2006ve, *Agostinelli:2002hh} as described in
+Ref.~\cite{LHCb-PROC-2011-006}.
+
+

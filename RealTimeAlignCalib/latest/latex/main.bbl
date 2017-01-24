@@ -1,0 +1,156 @@
+\ifx\mcitethebibliography\mciteundefinedmacro
+\PackageError{LHCb.bst}{mciteplus.sty has not been loaded}
+{This bibstyle requires the use of the mciteplus package.}\fi
+\providecommand{\href}[2]{#2}
+\begin{mcitethebibliography}{10}
+\mciteSetBstSublistMode{n}
+\mciteSetBstMaxWidthForm{subitem}{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem{Alves:2008zz}
+LHCb collaboration, A.~A. Alves~Jr.\ {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{The \lhcb detector at the LHC}},
+  }{}\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{JINST \textbf{3}
+  (2008) S08005}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2014-002}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{LHCb detector performance}},
+  }{}\href{http://dx.doi.org/10.1142/S0217751X15300227}{Int.\ J.\ Mod.\ Phys.\
+  \textbf{A30} (2015) 1530022}, \href{http://arxiv.org/abs/1412.6352}{{\tt
+  arXiv:1412.6352}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2014-001}
+R.~Aaij {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Performance
+  of the LHCb Vertex Locator}},
+  }{}\href{http://dx.doi.org/10.1088/1748-0221/9/09/P09007}{JINST \textbf{9}
+  (2014) P09007}, \href{http://arxiv.org/abs/1405.7808}{{\tt
+  arXiv:1405.7808}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2013-003}
+R.~Arink {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Performance
+  of the LHCb Outer Tracker}},
+  }{}\href{http://dx.doi.org/10.1088/1748-0221/9/01/P01002}{JINST \textbf{9}
+  (2014) P01002}, \href{http://arxiv.org/abs/1311.3893}{{\tt
+  arXiv:1311.3893}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2012-003}
+M.~Adinolfi {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Performance of the \lhcb RICH
+  detector at the LHC}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-013-2431-9}{Eur.\ Phys.\ J.\
+  \textbf{C73} (2013) 2431}, \href{http://arxiv.org/abs/1211.6759}{{\tt
+  arXiv:1211.6759}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2012-002}
+A.~A. Alves~Jr.\ {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Performance of the LHCb muon
+  system}}, }{}\href{http://dx.doi.org/10.1088/1748-0221/8/02/P02022}{JINST
+  \textbf{8} (2013) P02022}, \href{http://arxiv.org/abs/1211.1346}{{\tt
+  arXiv:1211.1346}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Sjostrand:2006za}
+T.~Sj\"{o}strand, S.~Mrenna, and P.~Skands,
+  \ifthenelse{\boolean{articletitles}}{\emph{{PYTHIA 6.4 physics and manual}},
+  }{}\href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{JHEP \textbf{05}
+  (2006) 026}, \href{http://arxiv.org/abs/hep-ph/0603175}{{\tt
+  arXiv:hep-ph/0603175}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Sjostrand:2007gs}
+T.~Sj\"{o}strand, S.~Mrenna, and P.~Skands,
+  \ifthenelse{\boolean{articletitles}}{\emph{{A brief introduction to PYTHIA
+  8.1}}, }{}\href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{Comput.\ Phys.\
+  Commun.\  \textbf{178} (2008) 852},
+  \href{http://arxiv.org/abs/0710.3820}{{\tt arXiv:0710.3820}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PROC-2010-056}
+I.~Belyaev {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Handling
+  of the generation of primary events in Gauss, the LHCb simulation
+  framework}}, }{}\href{http://dx.doi.org/10.1088/1742-6596/331/3/032047}{{J.\
+  Phys.\ Conf.\ Ser.\ } \textbf{331} (2011) 032047}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Lange:2001uf}
+D.~J. Lange, \ifthenelse{\boolean{articletitles}}{\emph{{The EvtGen particle
+  decay simulation package}},
+  }{}\href{http://dx.doi.org/10.1016/S0168-9002(01)00089-4}{Nucl.\ Instrum.\
+  Meth.\  \textbf{A462} (2001) 152}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Golonka:2005pn}
+P.~Golonka and Z.~Was, \ifthenelse{\boolean{articletitles}}{\emph{{PHOTOS Monte
+  Carlo: A precision tool for QED corrections in $Z$ and $W$ decays}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s2005-02396-4}{Eur.\ Phys.\ J.\
+  \textbf{C45} (2006) 97}, \href{http://arxiv.org/abs/hep-ph/0506026}{{\tt
+  arXiv:hep-ph/0506026}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Allison:2006ve}
+Geant4 collaboration, J.~Allison {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Geant4 developments and
+  applications}}, }{}\href{http://dx.doi.org/10.1109/TNS.2006.869826}{IEEE
+  Trans.\ Nucl.\ Sci.\  \textbf{53} (2006) 270}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Agostinelli:2002hh}
+Geant4 collaboration, S.~Agostinelli {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Geant4: A simulation toolkit}},
+  }{}\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nucl.\ Instrum.\
+  Meth.\  \textbf{A506} (2003) 250}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PROC-2011-006}
+M.~Clemencic {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{The
+  \lhcb simulation application, Gauss: Design, evolution and experience}},
+  }{}\href{http://dx.doi.org/10.1088/1742-6596/331/3/032023}{{J.\ Phys.\ Conf.\
+  Ser.\ } \textbf{331} (2011) 032023}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2012-002}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of $b$-hadron
+  branching fractions for two-body decays into charmless charged hadrons}},
+  }{}\href{http://dx.doi.org/10.1007/JHEP10(2012)037}{JHEP \textbf{10} (2012)
+  037}, \href{http://arxiv.org/abs/1206.2794}{{\tt arXiv:1206.2794}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

@@ -1,0 +1,46 @@
+\section{Alignment and Calibration Tasks}
+
+\subsection{Tracking Alignment}
+\subsubsection{Alignment method}
+\textcolor{red}{give more details}
+
+The tracking alignment is based on an iterative procedure where the
+residuals of a Kalman track fit are minimised.  The magnetic field and
+material effects are taken into account and information from vertices
+and particle masses can also be used as constraints to avoid global
+distortions \cite{Hulsbergen,AlignConstraints}. 
+
+Given a set of tracks reconstructed using the alignment parameters
+$\alpha_0$, the new set of alignment constants can be found solving
+the system of equations
+\begin{equation}
+\alpha = \alpha_0 -\left.\left(\frac{d^2 \chi^2}{d\alpha^2}
+\right)^{-1} \right|_{\alpha_0}  \left.\frac{d
+  \chi^2}{d\alpha}\right|_{\alpha_0},
+\label{eq:minimize}
+\end{equation}
+where the derivatives of the total $\chi^2$ with respect to the
+alignment parameters are obtained by summing the contributions from
+all the tracks:
+\begin{equation}
+\begin{aligned}
+\frac{d \chi^2}{d\alpha} &= 2 \sum_{\mbox{tracks}}
+\frac{dr}{d\alpha}^T V^{-1} r ,\\ \frac{d^2 \chi^2}{d\alpha^2} &= 2
+\sum_{\mbox{tracks}} \frac{dr}{d\alpha}^T V^{-1} R V^{-1}
+\frac{dr}{d\alpha}.\\
+\end{aligned}
+\label{eq:derivatives}
+\end{equation}
+Here $V$ is the covariance matrix of the measurement coordinates, $r$
+is the track residuals (the distance between the hit position and the
+track intercept point), and $R$ is the covariance matrix of the
+residuals. It is assumed that the $\chi^2$ has been minimised with
+respect to the track parameters for the alignment $\alpha_0$.
+
+\subsubsection{VELO Alignment}
+\textcolor{red}{ it should include (random order):stability plots, variation of the constants, time needed to run the jobs, event selections. Performance before/aftera alignment. Trend of the constants and evaluation of the variation. Maybe trends of physics quantity like mass or time resolution}
+
+\subsubsection{Tracker Alignment}
+
+\subsubsection{Muon Alignment}
+

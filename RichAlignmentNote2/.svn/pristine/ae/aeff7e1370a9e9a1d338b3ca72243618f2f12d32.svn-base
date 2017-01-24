@@ -1,0 +1,36 @@
+% General
+
+\newcommand{\eqn} [1]{Eqn.~\eqref{#1}}     % in the middle
+\newcommand{\Eqn} [1]{Equation~\eqref{#1}} % for beginning of sentence
+\newcommand{\fig} [1]{Fig.~\ref{#1}}     % in the middle
+\newcommand{\Fig} [1]{Figure~\ref{#1}}   % for beginning of sentence
+\newcommand{\sect}[1]{Sec.~\ref{#1}}     % in the middle
+\newcommand{\Sect}[1]{Section~\ref{#1}}  % for beginning of sentence
+\newcommand{\Tab} [1]{Table~\ref{#1}}    % for beginning of sentence
+\newcommand{\tab} [1]{Table~\ref{#1}}    % in the middle
+
+% RICH
+
+\def\deltathetaC    {\ensuremath{\delta\theta_\mathrm{Ch}}\xspace}
+\def\DeltathetaC    {\ensuremath{\Delta\theta_\mathrm{Ch}}\xspace}
+\def\deltatheta     {\ensuremath{\delta\theta}\xspace}
+\def\Deltatheta     {\ensuremath{\Delta\theta}\xspace}
+\def\gasOne         {\cfourften}
+\def\gasTwo         {\cffour}
+\def\richOne        {\ensuremath{\mathrm{\acs{rich}\,1}}\xspace}
+\def\richTwo        {\ensuremath{\mathrm{\acs{rich}\,2}}\xspace}
+\def\thetaC         {\ensuremath{\theta_\mathrm{Ch}}\xspace}
+\def\thetaR         {\ensuremath{\theta_{r}}\xspace}
+\def\thetaX         {\ensuremath{\theta_{x}}\xspace}
+\def\thetaY         {\ensuremath{\theta_{y}}\xspace}
+\newcommand{\dll}[2]{\ensuremath{\mathrm{\acs{dll}}_{#1-#2}}\xspace}
+
+% Software
+
+\def\minuit2        {\mbox{\textsc{Minuit2}}\xspace}
+\def\sqlite         {\mbox{\textsc{SQLite}}\xspace}
+\def\xerces         {\mbox{\textsc{Xerces}}\xspace}
+\def\xml            {\mbox{\textsc{XML}}\xspace}
+\def\xqilla         {\mbox{\textsc{XQilla}}\xspace}
+
+\def\m  {\ensuremath{{\rm \,M}}\xspace}

@@ -1,0 +1,91 @@
+\ifx\mcitethebibliography\mciteundefinedmacro
+\PackageError{LHCb.bst}{mciteplus.sty has not been loaded}
+{This bibstyle requires the use of the mciteplus package.}\fi
+\providecommand{\href}[2]{#2}
+\begin{mcitethebibliography}{1}
+\mciteSetBstSublistMode{n}
+\mciteSetBstMaxWidthForm{subitem}{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem{Alves:2008zz}
+LHCb collaboration, A.~A. Alves~Jr. {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{{\it {The LHCb detector at the LHC}},
+  }{}JINST {\bf 3} (2008) S08005\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2012-003}
+M.~Adinolfi {\em et~al.}, \ifthenelse{\boolean{articletitles}}{{\it
+  {Performance of the \lhcb RICH detector at the LHC}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-013-2431-9}{Eur.\ Phys.\ J.\
+  {\bf C73} (2013) 2431}, \href{http://arxiv.org/abs/1211.6759}{{\tt
+  arXiv:1211.6759}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2014-002}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{{\it {LHCb detector performance}},
+  }{}\href{http://dx.doi.org/10.1142/S0217751X15300227}{Int.\ J.\ Mod.\ Phys.\
+  {\bf A30} (2015) 1530022}, \href{http://arxiv.org/abs/1412.6352}{{\tt
+  arXiv:1412.6352}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCB:2000aa}
+LHCb Collaboration, \ifthenelse{\boolean{articletitles}}{{\it {LHCb RICH
+  technical design report}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=CERN-LHCC-2000-037&f=reportnumber&action_search=Search&c=LHCb+Reports&c=LHCb+Conference+Proceedings&c=LHCb+Conference+Contributions&c=LHCb+Notes&c=LHCb+Theses&c=LHCb+Papers}
+  {CERN-LHCC-2000-037}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb:2003ab}
+LHCb Collaboration, \ifthenelse{\boolean{articletitles}}{{\it {LHCb technical
+  design report: reoptimized detector design and performance}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=CERN-LHCC-2003-030&f=reportnumber&action_search=Search&c=LHCb+Reports&c=LHCb+Conference+Proceedings&c=LHCb+Conference+Contributions&c=LHCb+Notes&c=LHCb+Theses&c=LHCb+Papers}
+  {CERN-LHCC-2003-030}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Gorisek:1999td}
+A.~Gorisek, P.~Krizan, S.~Korpar, and M.~Staric,
+  \ifthenelse{\boolean{articletitles}}{{\it {Alignment of the HERA-B RICH
+  optical system with data}}, }{}Nucl.\ Instrum.\ Meth.\  {\bf A433} (1999)
+  408\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Papanestis:2008zz}
+A.~Papanestis, \ifthenelse{\boolean{articletitles}}{{\it {The calibration and
+  alignment of the LHCb RICH system}}, }{}Nucl.\ Instrum.\ Meth.\  {\bf A595}
+  (2008) 248\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Baldini:2006ed}
+W.~Baldini {\em et~al.}, \ifthenelse{\boolean{articletitles}}{{\it {LHCb
+  alignment strategy}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=LHCB-2006-035&f=reportnumber&action_search=Search&c=LHCb+Reports&c=LHCb+Conference+Proceedings&c=LHCb+Conference+Contributions&c=LHCb+Notes&c=LHCb+Theses&c=LHCb+Papers}
+  {LHCB-2006-035}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Antcheva:2011zz}
+I.~Antcheva {\em et~al.}, \ifthenelse{\boolean{articletitles}}{{\it {ROOT: A
+  C++ framework for petabyte data storage, statistical analysis and
+  visualization}}, }{}Comput.\ Phys.\ Commun.\  {\bf 182} (2011) 1384\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

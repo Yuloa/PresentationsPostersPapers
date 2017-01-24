@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: SoftwareMirrorAlignment.aux
+The style file: LHCb.bst
+Database file #1: SoftwareMirrorAlignment.bib
+Warning--empty author in LHCB:2000aa
+Warning--empty author in LHCb:2003ab
+You've used 12 entries,
+            2638 wiz_defined-function locations,
+            670 strings with 6643 characters,
+and the built_in function-call counts, 6693 in all, are:
+= -- 696
+> -- 97
+< -- 0
++ -- 99
+- -- 23
+* -- 596
+:= -- 951
+add.period$ -- 12
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 218
+empty$ -- 639
+format.name$ -- 23
+if$ -- 1484
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 32
+newline$ -- 83
+num.names$ -- 10
+pop$ -- 77
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 65
+stack$ -- 0
+substring$ -- 1259
+swap$ -- 0
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 66
+width$ -- 14
+write$ -- 172
+(There were 2 warnings)

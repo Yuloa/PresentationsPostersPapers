@@ -1,0 +1,56 @@
+\section{Introduction}
+\textcolor{red}{For me we should have a different introduction
+1) PID/Align performance needed to get optimal performance
+2) Possibility to have in trigger together with a new strategy
+=> imply better ferformance RICH PID}
+
+The \lhcb experiment is a single-arm forward spectrometer at the \lhc.
+It has been designed as a dedicated heavy flavour physics experiment
+focused on the reconstruction of \Pc~and~\Pb~hadrons. During Run~1 its
+physics programme  has been extended to electroweak, soft QCD and even
+heavy ion physics.  This was made possible in large part due to its
+versatile real-time reconstruction and analysis (trigger), which is
+responsible for reducing the rate of proton-proton collisions which
+need to be saved for offline analysis by approximately three orders of
+magnitude. LHCb's Run~1 trigger executed a simplified version of the
+full offline event reconstruction. Most charged particles above
+300~MeV of transverse momentum were available to classify the event,
+and particle identification and the use of neutral particles such as
+photons or \piz mesons was available on-demand to specific
+classification algorithms. Although this trigger enabled a great deal
+of LHCb's physics programme, the lack of very low momentum charged
+particles and full particle identification information limited the
+performance for \Pc~hadron physics in particular. In addition,
+resolution differences between the online and offline reconstructions
+led to difficulties in understanding efficiencies with a high degree
+of precision.
+
+For these reasons, the LHCb trigger system was redesigned during the
+2013-2015 long shutdown to perform the full offline event
+reconstruction, and the entire data processing framework was
+redesigned to enable a single, coherent, real-time detector alignment
+and calibration, as well as real-time analyses using information
+directly from the trigger system. The key objectives of this redesign
+were twofold : firstly to enable the full offline reconstruction to
+run in the trigger, greatly increasing the efficiency with which charm
+and strange hadron decays could be selected, and secondly to achieve
+the same alignment and calibration quality within the trigger as could
+be achieved offline in Run~I, enabling the entire analysis to be
+performed at the trigger level. 
+
+In order to achieve this objective, the alignment and calibration of
+all the different components of the \lhcb detector have been fully
+automated. Specific data streams are defined which supply each
+alignment and calibration algorithm with the events it needs, the
+algorithms themselves have been parallelized to enable them to run
+online within, for the most part, a matter of minutes, and a
+monitoring framework has been designed to ensure that any problems
+with alignment and calibration are spotted and rectified before they
+can affect data quality. 
+
+This paper describes the novel real-time alignment and calibration of
+the \lhcb detector, to the best of our knowledge the first of its kind
+in High Energy Physics.  Two companion papers describe the design and
+performance of the new uniform online-offline reconstruction
+sequence~\cite{} and the real-time analysis~\cite{} framework, which
+are made possible by the real-time alignment and calibration.

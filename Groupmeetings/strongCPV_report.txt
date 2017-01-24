@@ -1,0 +1,31 @@
+abstract: the parenthesis in the decay don't make it clear that you are looking for four different decays
+
+include the Feynman diagrams for the weak and strong decays?
+
+line 13: K^0 instead of K^0_S; 
+     the theory paper in [8] also speaks of the decay happening via rescattering of K^0_S bar and KPi
+
+line 73: What are the signal regions for N(D(_s)) and N(eta('))
+
+Equation 1: Explain why only the relative efficienies are needed
+
+line 74: clarify more what epsilon actually is (efficiency inside/coutside signal window?)
+
+line 104: does the BDT training window move with the optimisation of the 3pi signal mass window?
+
+Figure 1: show different bkg components, maybe log-plot
+
+line 127: clarify "imperfections"
+
+line 135, 136: K^0_S and rho should have their tail in the eta mass-window and should be parametrised (K^0_S by BW + Gaussian, rho by non-relativistic BW), the non-resonant component could then be linear
+     	       the f_0 lies in the eta' window and should be parametrised as well ()
+
+line 147: compare K_S->PiPi MC to K_S->PiPi data instead of eta->PiPi MC to K_S->PiPi data(?)
+
+line 149: what is the systematic uncertainty on the signal yield?
+
+lines 157-160: what does that even mean?
+
+lines 160-162: where do the 2% come from?
+
+

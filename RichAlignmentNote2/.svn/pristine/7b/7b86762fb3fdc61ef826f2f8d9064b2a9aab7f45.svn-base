@@ -1,0 +1,29 @@
+\section{Event selection}
+\label{sec:SelectionMethod}
+In order to determine the misalignments on the detector plane and subsequently the individual mirror misalignments the \deltatheta vs. $\phi$ histograms for each mirror-pair have to contain enough entries for the fits described in Section \ref{subsec:Fitting} to converge. The condition for a successful fit has been found to be that 16 of the 20 bins in $phi$ have to contain at least 300 entries.\\
+This is accomplished by having two dedicated \hltone lines for \richone and \richtwo respectively. The lines trigger on high energy particle tracks whose Cherenkov photons would populate the mirror-pairs containing the outer primary mirrors. (These mirror-pairs have lowest occupancy during normal data-taking since the particle flow is greatest close to the beam-pipe.) The other mirror-pairs are then populated by the rest of the tracks in the events. The selection criteria of tracks that are triggered on are listed in Table \ref{tab:HltCuts}. \\
+
+\begin{table}[htb]
+  \vspace{-0.5\baselineskip}
+  \caption{Trigger criteria for the \hltone line for \richone and \richtwo. Events that are accepted by these trigger lines need to have at least one track that satisfies the cuts listed below.}
+  \vspace{-0.5\baselineskip}
+  \centering
+  \begin{tabular}{l|c|c}
+  & \richone & \richtwo \\
+  \hline
+  momentum $p$ & $p>20$ \gev & $p>40$ \gev \\
+  \hline
+  transverse momentum $p_T$ & $p_T > 0.5$ \gev & $p_T > 0.5$ \gev \\
+  \hline
+  pseudorapidity $\eta$ & $1.6< \eta <2.04$ & $ 2.65 <\eta < 2.80 $\\
+  \hline
+  track $\chi^2$ & $\chi^2 < 2$ & $\chi^2 < 2$ \\
+  \hline
+  polar angle $\Phi$ & $-2.65< \Phi <-2.30$ & $-2.59< \Phi <-2.49$ \\
+   & $-0.80 < \Phi <-0.50 $ & $-0.65 < \Phi <-0.55 $ \\
+   & $0.50 < \Phi < 0.80$ & $ 0.55 < \Phi < 0.65 $ \\
+   &  $ 2.30 < \Phi <2.65 $ & $2.49 < \Phi < 2.59 $ \\
+  \end{tabular}
+  \label{tab:HltCuts}
+  \vspace{-0.5\baselineskip}
+\end{table}

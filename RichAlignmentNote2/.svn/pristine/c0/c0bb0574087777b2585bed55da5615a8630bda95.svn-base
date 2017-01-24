@@ -1,0 +1,76 @@
+% $Id: title-LHCb-ANA.tex 39841 2013-07-26 10:31:08Z roldeman $
+% ===============================================================================
+% Purpose: LHCb-ANA Note title page template
+% Author:
+% Created on: 2010-10-05
+% ===============================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+% Header ---------------------------------------------------
+\vspace*{-1.5cm}
+
+\hspace*{-0.5cm}
+\begin{tabular*}{\linewidth}{lc@{\extracolsep{\fill}}r}
+\ifthenelse{\boolean{pdflatex}}% Logo format choice
+{\vspace*{-2.7cm}\mbox{\!\!\!\includegraphics[width=.14\textwidth]{lhcb-logo.pdf}} & &}%
+{\vspace*{-1.2cm}\mbox{\!\!\!\includegraphics[width=.12\textwidth]{lhcb-logo.eps}} & &}
+ \\
+ & & LHCb-INT-2013-007 \\  % ID 
+ & & \today \\ % Date - Can also hardwire e.g.: 23 March 2010
+ & & \\
+\hline
+\end{tabular*}
+
+\vspace*{4.0cm}
+
+% Title --------------------------------------------------
+{\bf\boldmath\huge
+\begin{center}
+Software framework and method for the alignment of the \lhcb \rich optical
+system using proton-proton collisions during LHC Run II
+\end{center}
+}
+
+\vspace*{2.0cm}
+
+% Authors -------------------------------------------------
+\begin{center}
+XXX$^1$.
+\bigskip\\
+{\it\footnotesize
+$ ^1$University of Bristol, Bristol, United Kingdom\\
+}
+\end{center}
+
+\vspace{\fill}
+
+% Abstract -----------------------------------------------
+\begin{abstract}
+ \noindent
+ 	The method for aligning the optical system of the \lhcb Ring-Imaging Cherenkov (RICH) detectors during Run II of the Large Hadron Collider (LHC) is presented. The alignment will run online, within the high performance trigger system, and will be performed for each LHC fill. The alignment method for the \rich detectors is outlined, as well as its implementation in a novel online framework. The performance and stability of the alignments over the 2015 data taking period is shown.
+\end{abstract}
+
+\vspace*{2.0cm}
+\vspace{\fill}
+
+\end{titlepage}
+
+
+\pagestyle{empty}  % no page number for the title
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  EOD OF TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  empty page follows the title page ----
+\newpage
+\setcounter{page}{2}
+\mbox{~}
+
+\cleardoublepage
+
+

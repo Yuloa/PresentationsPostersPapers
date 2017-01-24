@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{Alves:2008zz}
+A.~A. Alves~Jr. et~al.
+\newblock {The LHCb detector at the LHC}.
+\newblock {\em JINST}, 3:S08005, 2008.
+
+\bibitem{LHCb-DP-2012-003}
+M.~Adinolfi et~al.
+\newblock {Performance of the \lhcb RICH detector at the LHC}.
+\newblock {\em Eur. Phys. J.}, C73:2431, 2013.
+
+\bibitem{LHCb-DP-2014-002}
+R.~Aaij et~al.
+\newblock {LHCb detector performance}.
+\newblock {\em Int. J. Mod. Phys.}, A30:1530022, 2015.
+
+\bibitem{LHCB:2000aa}
+{LHCb RICH technical design report}, 2000.
+
+\bibitem{LHCb:2003ab}
+{LHCb technical design report: reoptimized detector design and performance},
+  2003.
+
+\bibitem{Gorisek:1999td}
+A.~Gorisek, P.~Krizan, S.~Korpar, and M.~Staric.
+\newblock {Alignment of the HERA-B RICH optical system with data}.
+\newblock {\em Nucl.Instrum.Meth.}, A433:408--412, 1999.
+
+\bibitem{Papanestis:2008zz}
+A.~Papanestis.
+\newblock {The calibration and alignment of the LHCb RICH system}.
+\newblock {\em Nucl.Instrum.Meth.}, A595:248--251, 2008.
+
+\bibitem{Baldini:2006ed}
+W.~Baldini, J.~Blouw, S.~Blusk, N.~Gilardi, O.~Deschamps, et~al.
+\newblock {LHCb alignment strategy}, 2006.
+
+\bibitem{Antcheva:2011zz}
+I.~Antcheva, M.~Ballintijn, B.~Bellenot, M.~Biskup, R.~Brun, et~al.
+\newblock {ROOT: A C++ framework for petabyte data storage, statistical
+  analysis and visualization}.
+\newblock {\em Comput.Phys.Commun.}, 182:1384--1385, 2011.
+
+\end{thebibliography}

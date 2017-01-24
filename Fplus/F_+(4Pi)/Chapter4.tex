@@ -1,0 +1,121 @@
+\chapter{Systematic uncertainties}
+\label{c:sys}
+\section{Sources of systematic uncertainties}
+\\
+\subsection{Non-flat flat and continuum bkg}
+\label{s:flat}
+In order to evaluate the effect of the flat and continuum bkg possibly not being flat the distribution of flat bkg in \KsPiPi  is taken from generic MC. \\
+Since it is known that the continuum MC does not model the distribution well, another approach is chosen for the \KlPiPi bkg. From data the sideband defined by $-0.1 < m_{miss}^2 < 0.1$ and $1.83 < m_{BC} < 1.85$ is selected as it contains both flat bkg and continuum bkg but no peaking bkg. The distribution of events in this sideband is chosen to represent the flat and continuum bkg.\\
+
+
+\subsection{Peaking bkg distribution}
+\label{s:peak}
+There are different components to the systematic uncertainty from the peaking bkg distribution:
+\subsubsection{Limited data and MC sample}
+\label{s:peaka}
+ Uncertainty from the limited data and MC used to execute the procedure described in Section \ref{sec:peak} and Section \ref{sec:klpeak}.\\
+	This uncertainty is calculated directly and listed with the default results in Table \ref{tab:MMKs} and Table \ref{tab:MMKl} for \4Pi vs \KsPiPi and \4Pi vs \KlPiPi respectively.\\
+
+\subsubsection{Cleanness of data sample}
+\label{s:peakb}
+Uncertainty from the cleanness of the data samples used to determine the distribution of peaking bkg events where the reconstructed \4Pi comes from a \KsPiPi decay(see Sections \ref{sec:clean} and \ref{sec:klclean}). The effect of this systematic is estimated by assuming that the data sample consists of 96\% and 92\% peaking bkg events while the rest of the events is are distributed according to the generic MC.\\
+
+\subsubsection{Unknown BR($\Dz \rightarrow \KlPiPi$)}
+\label{s:peakc}
+Uncertainty in the \4Pi vs \KlPiPi case on the total number of \KlPiPi vs \KlPiPi bkg events in the data sample.\\
+	This uncertainty occurs due to the extrapolation of peaking bkg events from generic MC. Since the branching fraction of \D to \KlPiPi is not known, this number cannot be exact. To estimate this uncertainty the number of peaking bkg events is varied by $\pm$ 20\%.\\
+
+
+
+\subsection{Multiple candidate selection}
+\label{s:mcs}
+A different multiple candidate selection is tested. Instead of selecting the best candidate based on $m_bc$ a candidate is chosen at random.\\
+%the candidate with the smallest average $\Delta E$ is chosen. \\
+
+\subsection{Dalitz plot acceptance}
+\label{s:dpa}
+The Dalitz plot acceptance is estimated in bins of pion track momentum $p$ and angle $\theta$ as described in Chris report.\\
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{c | c c c c}
+&  & $ \theta$ bin \\
+\hline
+\textbf{p} bin & 1 & 2 & 3 & 4\\ 
+\hline
+1 & 0.912 $\pm$ 0.006 & 1.010 $\pm$ 0.006 & 0.997 $\pm$ 0.006 & 0.976 $\pm$ 0.006 \\ 
+2 & 0.972 $\pm$ 0.006 & 1.060 $\pm$ 0.006 & 1.060 $\pm$ 0.006 & 1.040 $\pm$ 0.006 \\ 
+3 & 0.962 $\pm$ 0.006 & 1.050 $\pm$ 0.006 & 1.040 $\pm$ 0.006 & 1.030 $\pm$ 0.006 \\ 
+4 & 0.876 $\pm$ 0.008 & 0.984 $\pm$ 0.009 & 0.979 $\pm$ 0.009 & 0.938 $\pm$ 0.008 \\ 
+\end{tabular}
+\end{center}
+\caption{\textit{Normalized Dalitz plot efficiency for \4Pi vs \KsPiPi.}}
+\end{table}
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{c c c c c}&  & $ \theta$ bin \\
+\hline
+\textbf{p} bin & 1 & 2 & 3 & 4\\ 
+\hline
+1 & 0.912 $\pm$ 0.005 & 1 $\pm$ 0.006 & 1.01 $\pm$ 0.005 & 0.976 $\pm$ 0.004 \\ 
+2 & 0.973 $\pm$ 0.004 & 1.06 $\pm$ 0.006 & 1.06 $\pm$ 0.005 & 1.04 $\pm$ 0.004 \\ 
+3 & 0.966 $\pm$ 0.005 & 1.05 $\pm$ 0.006 & 1.05 $\pm$ 0.005 & 1.03 $\pm$ 0.004 \\ 
+4 & 0.853 $\pm$ 0.006 & 0.967 $\pm$ 0.007 & 0.968 $\pm$ 0.007 & 0.924 $\pm$ 0.006 \\ 
+\end{tabular}
+\end{center}
+\caption{\textit{Normalized Dalitz plot efficiency for \4Pi vs \KlPiPi.}}
+\end{table}
+\clearpage
+\section{Effects on the number of signal events in \4Pi vs \KsPiPi}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{c |c |c |c |c | c}
+bin i & default & \ref{s:flat} & \ref{s:peakb} & \ref{s:mcs} & \ref{s:dpa} \\
+\hline
+1 & 30.78 $\pm$ 6.97 $\oplus$ 0.24 $\oplus$ 0.65 & 31.13 & 30.69 & 29.68 & 28.60 \\ 
+\hline
+2 & 19.83 $\pm$ 5.25 $\oplus$ 0.27 $\oplus$ 0.45 & 18.64 & 19.79 & 19.44 & 20.29 \\ 
+\hline
+3 & 16.38 $\pm$ 4.47 $\oplus$ 0.27 $\oplus$ 0.50 & 16.73 & 16.34 & 15.8  & 15.03 \\ 
+\hline
+4 & 10.15 $\pm$ 3.38 $\oplus$ 0.18 $\oplus$ 0.30 & 10.63 & 10.16 & 12.30 & 7.96 \\ 
+\hline
+5 & 55.14 $\pm$ 8.04 $\oplus$ 0.68 $\oplus$ 0.56 & 54.22 & 55.11 & 50.81 & 54.91 \\ 
+\hline
+6 & 21.08 $\pm$ 5.08 $\oplus$ 0.33 $\oplus$ 0.38 & 20.29 & 21.11 & 21.98 & 21.47 \\ 
+\hline
+7 & 27.67 $\pm$ 5.94 $\oplus$ 0.43 $\oplus$ 0.57 & 28.50 & 27.86 & 27.20 & 29.17 \\ 
+\hline
+8 & 36.88 $\pm$ 6.78 $\oplus$ 0.45 $\oplus$ 0.62 & 37.73 & 36.82 & 32.06 & 35.99 \\ 
+\end{tabular}
+\end{center}
+\caption{\textit{\4Pi vs \KsPiPi efficiency corrected and bkg subtracted signal events for different systematic effects. The first error on the default values is statistical, the second one from uncertainty on the signal efficiency and the third one is the uncertainty from the limited data and MC sample used to determine the distribution of peaking bkg events(Section \ref{s:peaka}). The systematic effects are from left to right: non-flat bkg, peaking bkg (cleanness of data sample 96\%), multiple candidate selection, Dalitz plot acceptance. }}
+\end{table}
+
+\section{Effects on the number of signal events in \4Pi vs \KlPiPi}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{c |c |c |c |c | c | c| c}
+bin i & default & \ref{s:flat} & \ref{s:peakb} & \ref{s:peakc} & \ref{s:peakc} & \ref{s:mcs} & \ref{s:dpa} \\
+\hline
+1 & 134.11 $\pm$ 13.89 $\oplus$ 0.75 $\oplus$ 1.03 & 130.86 & 134.13 & 136.48 & 131.73 & 132.90 & 132.8 \\ 
+\hline
+2 & 59.23 $\pm$ 8.89 $\oplus$ 0.58 $\oplus$ 0.66 & 60.70 & 59.24 & 59.98 & 58.46 & 60.44 & 62.05 \\ 
+\hline
+3 & 55.39 $\pm$ 8.63 $\oplus$ 0.75 $\oplus$ 0.64 & 57.59 & 55.36 & 55.99 & 54.78 & 55.04 & 54.40 \\ 
+\hline
+4 & 20.34 $\pm$ 5.74 $\oplus$ 0.28 $\oplus$ 0.46 & 22.52 & 20.37 & 20.65 & 20.02 & 18.21 & 19.45 \\ 
+\hline
+5 & 46.01 $\pm$ 8.64 $\oplus$ 0.42 $\oplus$ 0.65 & 48.41 & 46.04 & 46.76 & 45.25 & 45.15 & 46.96 \\ 
+\hline
+6 & 24.58 $\pm$ 6.22 $\oplus$ 0.29 $\oplus$ 0.42 & 24.67 & 24.61 & 24.92 & 24.23 & 24.43 & 24.59 \\ 
+\hline
+7 & 61.16 $\pm$ 8.97 $\oplus$ 0.70 $\oplus$ 0.71 & 58.94 & 61.11 & 61.97 & 60.34 & 62.27 & 61.44 \\ 
+\hline
+8 & 84.13 $\pm$ 10.70 $\oplus$ 0.76 $\oplus$ 0.81 & 81.23 & 84.10 & 85.26 & 82.99 & 83.66 & 85.41 \\ 
+\end{tabular}
+\end{center}
+\caption{\textit{\4Pi vs \KsPiPi efficiency corrected and bkg subtracted signal events for different systematic effects. The first error on the default values is statistical, the second one from uncertainty on the signal efficiency and the third one is the uncertainty from the limited data and MC sample used to determine the distribution of peaking bkg events(Section \ref{s:peaka}). The systematic effects are from left to right: non-flat bkg, peaking bkg (cleanness of data sample 92\%), peaking bkg (BR($\Dz \rightarrow \KlPiPi$) 20\% smaller than in genMC), peaking bkg (BR($\Dz \rightarrow \KlPiPi$) 20\% greater than in genMC), multiple candidate selection, Dalitz plot acceptance. }}
+\end{table}

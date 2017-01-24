@@ -1,0 +1,19 @@
+\usepackage{multirow}  % for columns spanning multiple rows
+\usepackage{dcolumn}   % for aligning columns in tables at decimal points
+%\usepackage{epsfig}
+\usepackage{booktabs}  % to create beautiful tables
+%\usepackage{acronym}
+\usepackage{ragged2e}  % to use RaggedRight in caption that retains hyphanation
+%\usepackage[font=small,justification=RaggedRight]{caption}
+\usepackage[UKenglish]{babel}
+%\usepackage{parskip}
+%\usepackage{subcaption}
+%\usepackage{subfigure}
+%\usepackage{wrapfig}
+\usepackage[raggedright]{titlesec} % to turn off hyphenation in section titles
+
+\setlength{\parindent}{15pt}
+
+\RaggedRight % retains hyphanation in contrast to \raggedright
+             % but eliminates parindent, therefore, we need to restore it:
+\input{lhcb-symbols-def-additional} % Add in additional symbols

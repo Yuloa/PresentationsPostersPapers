@@ -1,0 +1,289 @@
+\begin{thebibliography}{10}
+
+\bibitem{higgscms}
+CMS Collaboration.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Physics Letters B}, 716(1):30--61, July 2012.
+
+\bibitem{higgsatlas}
+ATLAS Collaboration.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Physics Letters B}, 716(1):1--29, September 2012.
+
+\bibitem{pdg}
+J.Beringer et~al.
+\newblock {\em {Review of Particle Physics}}.
+\newblock 2012.
+
+\bibitem{buras}
+Andrzej~J. Buras.
+\newblock {Weak Hamiltonian, CP Violation and Rare Decays}.
+\newblock \href{http://arxiv.org/abs/hep-ph/9806471}{arXiv:hep-ph/9806471},
+  June 1998.
+
+\bibitem{emi}
+Emi Kou, Cai-Dian Lu, and Fu-Sheng Yu.
+\newblock {Photon Polarization in the \bsg processes in the Left-Right
+  Symmetric Model}.
+\newblock \href{http://arxiv.org/pdf/1305.3173v1.pdf}{arXiv:hep-ph/1305.3173},
+  May 2013.
+
+\bibitem{ananote}
+Jacques Lefran\c{c}ois and Marie-H{\'e}l{\`e}ne Schune.
+\newblock {Measuring the photon polarization in $b \rightarrow s \gamma$ using
+  the \BdKstee decay channel }.
+\newblock
+  \href{http://cds.cern.ch/record/1179865/files/LHCb-PUB-2009-008.pdf}{LHCb-PU%
+B-2009-008}, June 2009.
+
+\bibitem{gross}
+Yuval Grossman and Dan Pirjol.
+\newblock {Extracting and using the photon polarization information in
+  radiative \B decays}.
+\newblock \href{http://arxiv.org/pdf/hep-ph/0005069v2.pdf}{SLAC-PUB-8446}, May
+  2000.
+
+\bibitem{krueger}
+Frank Kr{\"u}ger and Joaquim Matias.
+\newblock {Probing New Physics Via the Transverse Amplitudes of $\B \rightarrow
+  K^{*0}(\rightarrow K^- \pi^+)l^+l^-$ at Large Recoil}.
+\newblock
+  \href{http://arxiv.org/pdf/hep-ph/0502060v2.pdf}{arXiv:hep-ph/0502060},
+  February 2005.
+
+\bibitem{jaeger}
+Sebastian J{\"a}ger and Jorge~Martin Camalich.
+\newblock {On $\B \rightarrow V ll $at small dilepton invariant mass, power
+  corrections, and new physics }.
+\newblock \href{http://arxiv.org/pdf/1212.2263v2.pdf}{arXiv:hep-ph/1212.2263},
+  February 2013.
+
+\bibitem{mumu}
+The {\lhcb Collaborarion}.
+\newblock {Differential branching fraction and angular analysis of the decay
+  $\B \rightarrow \Kstarz \mup \mun$}.
+\newblock \href{http://arxiv.org/pdf/1304.6325.pdf}{arXiv:hep-ph/1304.6325},
+  April 2013.
+
+\bibitem{pythia}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter Skands.
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock {\em JHEP 0605:026,2006}, May 2006.
+
+\bibitem{bsmumu}
+R.~Aaij et~al.
+\newblock {Search for the rare decays $B^0_s \rightarrow \mup \mun$ and $B^0
+  \rightarrow \mup \mun$}.
+\newblock \href{http://arxiv.org/pdf/1103.2465.pdf}{CERN-PH-EP-2011-029}, April
+  2011.
+
+\bibitem{lhcbletter}
+The {\lhcb Collaboration}.
+\newblock {\lhcb letter of intent}.
+\newblock
+  \href{http://lhcb-doc.web.cern.ch/lhcb-doc/Letter\%20of\%20intent/letter\_of%
+\_intent\_lhcb.pdf}{CERN/LHCC-95-5}, August 1995.
+
+\bibitem{lhcb}
+The {\lhcb Collaboration}.
+\newblock {The \lhcb detector at the \lhc}.
+\newblock \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{JINST 3 (2008)
+  S08005 }, 2008.
+
+\bibitem{velo}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Vertex Locator Technical Design Report}.
+\newblock
+  \href{http://lhcb-vd.web.cern.ch/lhcb-vd/TDR/velo\_tdr.pdf}{CERN-LHCC-2001-0%
+11}, May 2001.
+
+\bibitem{magnet}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Magnet Technical Design Report}.
+\newblock
+  \href{http://lhcb.web.cern.ch/lhcb/magnet/TDR/pdf/lhcb-magnet.pdf}{CERN-LHCC%
+-2000-007}, January 2000.
+
+\bibitem{it}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Inner Tracker Technical Design Report}.
+\newblock
+  \href{http://cds.cern.ch/record/582793/files/lhcb-tdr-008.pdf}{CERN-LHCC-200%
+2-029}, November 2002.
+
+\bibitem{ot}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Outer Tracker Technical Design Report}.
+\newblock
+  \href{http://lhcb.web.cern.ch/lhcb/tdr/front\%20cover/lhcb-OTol-covx.pdf}{CE%
+RN-LHCC-2001-024}, September 2001.
+
+\bibitem{rich}
+The {\lhcb Collaboration}.
+\newblock {\lhcb RICH Technical Design Report}.
+\newblock
+  \href{http://lhcb-rich.web.cern.ch/lhcb-rich/richtdr/tdr.pdf}{CERN-LHCC-2000%
+-037}, September 2000.
+
+\bibitem{WRLeo}
+W.R. Leo.
+\newblock {\em {Techniques for Nuclear and Particle Physics Experiements}}.
+\newblock Springer-Verlag Berlin Heidelberg New York, 1987.
+
+\bibitem{calo}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Calorimeters Technical Design Report}.
+\newblock
+  \href{http://lhcb.cern.ch/calorimeters/html/TDR/calo\_tdr.pdf}{CERN-LHCC-200%
+0-036}, September 2000.
+
+\bibitem{pidcalo}
+Herve Terrier and Ivan Belyaev.
+\newblock {Particle Identification with \lhcb Calorimeters}.
+\newblock
+  \href{https://cdsweb.cern.ch/record/691743/files/lhcb-2003-092.pdf}{LHCb
+  2003-092}, August 2003.
+
+\bibitem{muon}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Muon SystemTechnical Design Report}.
+\newblock
+  \href{http://lhcb-muon.web.cern.ch/lhcb-muon/results/tdr.pdf}{CERN-LHCC-2001%
+-010}, May 2001.
+
+\bibitem{gem}
+G~; Felici G ; Murtas F ; Valente P ; Bonivento W (INFN Cagliari) ; Cardini A
+  (INFN Cagliari) ; Lai A (INFN Cagliari) ; Pinci D (INFN Cagliari ; Cagliari
+  U. ) ; Saitta B (INFN Cagliari ; Cagliari U. ) ; Bosio C (INFN~Rome)
+  Bencivenni.
+\newblock {A triple-GEM detector with pad readout for the inner region of the
+  first LHCb muon station}.
+\newblock
+  \href{https://cds.cern.ch/record/691604/files/lhcb-2001-051.pdf}{LHCb-MUON
+  2001-05}, June 2001.
+
+\bibitem{lhcbperf}
+Monica~Pepe Altarelli.
+\newblock {\lhcb: detector performance and first physics results}, May 2011.
+
+\bibitem{veloperf}
+Pablo~Rodriguez Perez, for the LHCb~VELO Group, and for the VELO~Upgrade group.
+\newblock {The LHCb Vertex Locator performance and Vertex Locator upgrade},
+  October 2012.
+
+\bibitem{tsperf}
+35th International Confer ence of High Ener gy Physics - ICHEP2010.
+\newblock {\em {Performance of the Tracking System at the \lhcb Experiment}},
+  December 2010.
+
+\bibitem{trigger}
+The {\lhcb Collaboration}.
+\newblock {\lhcb Trigger SystemTechnical Design Report}.
+\newblock
+  \href{http://lhcb.web.cern.ch/lhcb/tdr/trigtdr.pdf}{CERN-LHCC-2003-066},
+  September 2003.
+
+\bibitem{trigger2}
+Massimiliano Ferro-Luzzi and The {\lhcb Collaboration}.
+\newblock {The \lhcb Trigger Strategy and Performance}.
+\newblock \href{http://arxiv.org/abs/hep-ex/0306051v1}{ECONF
+  C0304052:FO003,2003}, June 2003.
+
+\bibitem{hlt2topo}
+M.~Williams et~al.
+\newblock {The \hlttwo Topological Lines}.
+\newblock
+  \href{http://cds.cern.ch/record/1323557?ln=de}{CERN-LHCb-PUB-2011-002},
+  January 2011.
+
+\bibitem{gaudi}
+G.~Barrand, I.~Belyaev, et~al.
+\newblock {\gaudi - A Software Architecture and Framework for building HEP Data
+  Processing Applications}.
+\newblock {\em Computer Physics Communications}, 140(1-2), October 2001.
+
+\bibitem{evtgen}
+Anders Ryd, David Lange, et~al.
+\newblock {EvtGen, A Monte Carlo Generator for B -Physics}.
+\newblock
+  \href{http://robbep.home.cern.ch/robbep/EvtGen/GuideEvtGen.pdf}{EvtGen
+  V00-11-06}, February 2004.
+
+\bibitem{geant}
+V.N Ivanchenko.
+\newblock {Geant4 toolkit for simulation of HEP experiments}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 502(2-3),
+  April 2003.
+
+\bibitem{davinci}
+The {\lhcb Collaboration}.
+\newblock {The \davinci Project}.
+\newblock
+  \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/davinci/}{L%
+HCb-DaVinci}.
+
+\bibitem{michellesthesis}
+Michelle Nicol.
+\newblock {\em {Analysis of the rare decay $B^0 \rightarrow K^{*0} e^+e^-$ at
+  \lhcb}}.
+\newblock PhD thesis, Universite Paris-Sud 11, December 2012.
+
+\bibitem{crystal}
+T.~Skwarnicki.
+\newblock {\em { A study of the radiative CASCADE transitions between the
+  Upsilon-Prime and Upsilon resonances}}.
+\newblock PhD thesis, Cracow Institute of Nuclear Physics, April 1986.
+
+\bibitem{paper}
+LHCb collaboration et~al.
+\newblock {Measurement of the $B^0 \rightarrow K^{*0}e^+e^-$ branching fraction
+  at low dilepton mass}.
+\newblock {\em JHEP05(2013)159}, 2013.
+
+\bibitem{babar}
+J.~P. Lees et al.~(BABAR Collaboration).
+\newblock {Measurement of branching fractions and rate asymmetries in the rare
+  decays B→K(*)ℓ+ℓ-}.
+\newblock {\em Physical Review D}, August 2012.
+
+\bibitem{belle}
+P.~Chang et al (The Belle~Collaboration) {J.-T. Wei}.
+\newblock {Measurement of the Differential Branching Fraction and
+  Forward-Backword Asymmetry for $B \rightarrow K^{0*}l^+l^-$}.
+\newblock {\em Physical Review Letters}, October 2009.
+
+\bibitem{lopez}
+E.~{Lopez Asamar} et~al.
+\newblock {Measurement of trigger efficiencies and biases}.
+\newblock \href{http://cds.cern.ch/record/1152284?ln=de}{CERN-LHCb-2008-073},
+  March 2010.
+
+\bibitem{zandri}
+Alexandra~Martin Sanchez.
+\newblock {\em {CP violation studies on the $B \rightarrow D \Kstarz$ decays
+  and hadronic trigger performance with the LHCb detecor}}.
+\newblock PhD thesis, Universite Paris-Sud 11, June 2013.
+
+\bibitem{splot}
+F.R.~Le Diberder and M.~Pivk.
+\newblock {sPlot : a statistical tool to unfold data distributions}.
+\newblock
+  \href{http://arxiv.org/pdf/physics/0402083.pdf}{arXiv:physics/0402083},
+  September 2005.
+
+\bibitem{rookeys}
+Kyle~S. Cranmer.
+\newblock {Kernel Estimation in High-Energy Physics}.
+\newblock {\em Comput.Phys.Commun. 136 (2001) 198-207}, November 2000.
+
+\bibitem{BsJpsi}
+The~LHCb collaboration.
+\newblock {Measurement of the $B^0_s\rightarrow J/ψK^{*0}$ branching fraction
+  and angular amplitudes }.
+\newblock \href{http://arxiv.org/abs/1208.0738}{ arXiv:1208.0738 [hep-ex]},
+  September 2012.
+
+\end{thebibliography}

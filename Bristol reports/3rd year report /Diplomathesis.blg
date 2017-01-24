@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Diplomathesis.aux
+A level-1 auxiliary file: titelseite.aux
+A level-1 auxiliary file: Chaptermiez.aux
+A level-1 auxiliary file: RichChapter.aux
+A level-1 auxiliary file: Final.aux
+The style file: unsrt.bst
+Database file #1: bib/vorlage.bib
+Warning--entry type for "LHCB:2000aa" isn't style-file defined
+--line 53 of file bib/vorlage.bib
+Warning--entry type for "LHCb:2003ab" isn't style-file defined
+--line 59 of file bib/vorlage.bib
+Warning--entry type for "Baldini:2006ed" isn't style-file defined
+--line 82 of file bib/vorlage.bib
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            510 strings with 4803 characters,
+and the built_in function-call counts, 1772 in all, are:
+= -- 141
+> -- 84
+< -- 0
++ -- 32
+- -- 23
+* -- 111
+:= -- 284
+add.period$ -- 22
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 69
+empty$ -- 191
+format.name$ -- 23
+if$ -- 395
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 6
+newline$ -- 43
+num.names$ -- 7
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 120
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 13
+width$ -- 10
+write$ -- 88
+(There were 3 warnings)

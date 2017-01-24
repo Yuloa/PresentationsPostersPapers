@@ -1,0 +1,169 @@
+\documentclass{wissdoc}
+% AutorInnen: Stefan Fliescher 2008, Anna Nelles 2010
+% ----------------------------------------------------------------
+% Diplomathesis
+% ----------------------------------------------------------------
+%%
+%%
+%%
+% wissdoc Optionen: draft, relaxed, pdf --> siehe wissdoc.cls
+% ------------------------------------------------------------------
+% Weitere packages: (Dokumentation dazu durch "latex <package>.dtx")
+%\usepackage{varioref}
+%\usepackage{verbatim}
+%\usepackage{float}    %z.B. \floatstyle{ruled}\restylefloat{figure}
+\usepackage{subfigure}
+%\usepackage{color}    % Farbiger/grauer Text
+%\usepackage{colortbl}   % Farbige/graue Tabellenzeilen und -spalten!! <--
+%\usepackage{fancybox} % fuer schattierte,ovale Boxen etc.
+%\usepackage{tabularx} % automatische Spaltenbreite
+%\usepackage{supertab} % mehrseitige Tabellen
+%% -------------to find the position of bremsstrahlung photon candidates in--- end of usepackages -------------
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage{listings}
+\usepackage{floatflt}
+\usepackage{sidecap}
+\usepackage{courier}
+%\usepackage{subfig}\captionsetup{labelfont=bf}
+\usepackage[bf]{caption}%\captionsetup{captionlabel=it}
+%\usepackage{subcaption}
+\usepackage{xcolor}
+\definecolor{cred1}{HTML}{CA0614}
+\definecolor{cred2}{HTML}{FD3232}
+%
+%\def\Offline{\mbox{$\overline{\rm
+%Off}$\hspace{.05em}\raisebox{.3ex}{$\underline{\rm line}$}}\xspace}
+\def\OfflineB{\mbox{$\bf\overline{\rm\bf Off}$\hspace{.05em}
+\raisebox{.2ex}{$\bf\underline{\rm\bf line}$}}\xspace}
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+
+\def\emptyline{\vspace{12pt}}
+%\renewcommand{\floatpagefraction}{.6}% vorher: .5
+%\renewcommand{\textfraction}{.15} % vorher: .2
+%% Informationen f�r die PDF-Datei
+% \pdfinfo{
+%  /Title  (Diplomathesis.pdf)
+%  /Author (Stefan Fliescher)
+%  /Subject (Diplomathesis)
+%  /Keywords(Auger, Radio, Cosmic Rays)
+% }
+
+% Macros, nicht unbedingt notwendig
+\input{macros}
+% %%%%%%%%%%%%%%%%%%%%
+%  for LHCb aliases
+% %%%%%%%%%%%%%%%%%%%%
+\usepackage{ifthen}
+\newboolean{articletitles}
+\setboolean{articletitles}{true} % False removes titles in references
+\newboolean{uprightparticles}
+\setboolean{uprightparticles}{false} %Set to true to get roman particle symbols
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{paralist}
+\usepackage{wrapfig}
+\usepackage{upgreek} % Adds in support for greek letters in roman typeset
+% Get hyperlinks to captions and in references.
+% These do not work with revtex. Use "hypertext" as class option instead.
+\usepackage{hyperref}    % Hyperlinks in references
+\usepackage[all]{hypcap} % Internal hyperlinks to floats.
+\input{lhcb-symbols-def} % Add in the predefined LHCb symbols
+
+
+% Print URLs not in Typewriter Font
+\def\UrlFont{\rm}
+\newcommand{\vc}[1]{\mbox{\boldmath$ #1 $}}
+\newcommand{\blankpage}{% Leerseite ohne Seitennummer, n�chste Seite rechts
+\clearpage{\pagestyle{empty}\cleardoublepage}
+}
+\newcommand{\entspricht}{\mathrel{\widehat{=}}}
+
+\def\Offline{\mbox{$\overline{\textrm%
+{Off}}$\hspace{.05em}\protect\raisebox{.4ex}%
+{$\protect\underline{\textrm{line}}$}}\xspace}
+
+%% Einstellungen fuer das gesamte Dokument
+
+% Trennhilfen
+% Wichtig!
+% Im german-paket sind zusaetzlich folgende Trennhinweise enthalten:
+% "- = zusaetzliche Trennstelle
+% "| = Vermeidung von Ligaturen und moegliche Trennung (bsp: Schaf"|fell)
+% "~ = Bindestrich an dem keine Trennung erlaubt ist (bsp: bergauf und "~ab)
+% "= = Bindestrich bei dem Worte vor und dahinter getrennt werden duerfen
+% "" = Trennstelle ohne Erzeugung eines Trennstrichs (bsp: und/""oder)
+
+% Trennhinweise fuer Woerter hier beschreiben
+\hyphenation{
+ma-the-ma-ti-cal
+ex-pec-tan-cy
+me-thods
+pro-ducts
+}
+
+% Index-Datei oeffnen
+% \ifnotdraft{\makeindex}
+%%%%%%%%%%%%%% includeonly %%%%%%%%%%%%%%%%%%%
+% Es werden nur die Teile eingebunden, die hier
+% aufgefuehrt sind!
+% \includeonly{
+% titelseite,
+% Motivation,
+% % CPVerletzung,
+% % Standardmodell,
+% % Neutralebmesonen,
+% % Experimente,
+% % Literatur
+% }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\lstset{language=C++, basicstyle =\ttfamily}
+\selectlanguage{british}
+\include{titelseite}
+%\blankpage % Leerseite auf Titelrueckseite
+
+
+
+
+% \blankpage % Leerseite auf Erklaerungsrueckseite
+%}
+
+%% *************** Hier geht's ab ****************
+%% ++++++++++++++++++++++++++++++++++++++++++
+%% Verzeichnisse
+%% ++++++++++++++++++++++++++++++++++++++++++
+\pagenumbering{roman}
+\ifnotdraft{
+% \renewcommand{\contentsname}{Contents}
+\tableofcontents
+% \blankpage
+% \def\listoffiguresname{List of Figures}
+%\renewcommand{\listfigurename}{Abbildungstafeln}
+%\listoffigures
+% \blankpage
+% \listoftables
+%\blankpage
+}
+%% ++++++++++++++++++++++++++++++++++++++++++
+%% Hauptteil
+%% ++++++++++++++++++++++++++++++++++++++++++
+\graphicspath{{bilder/}} \pagenumbering{arabic}
+\selectlanguage{british}
+\include{Chaptermiez}
+
+
+
+ 
+
+
+
+\end{document}
+%% end of file

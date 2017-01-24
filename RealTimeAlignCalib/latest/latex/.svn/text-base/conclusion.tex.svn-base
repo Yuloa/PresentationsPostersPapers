@@ -1,0 +1,15 @@
+\section{Conclusion}
+In Run~II the new scheme for the software trigger at LHCb allows the
+alignment and calibration to be performed in real time. A dedicated framework
+has been put in place to parallelise the alignment and calibration tasks
+on the multi-core farm infrastructure used for the trigger in order to meet the
+computing time constraints. Data collected
+at the start of the fill are processed in a few minutes and the output is used to
+update the alignment, while the RICH calibration constants are evaluated for
+each run. The same framework is used to perform  finer calibration less
+frequently and to monitor the alignment quality of various subdetector. 
+This procedure allows a
+more stable alignment quality, more effective trigger selections and
+online-offline consistency thanks also to the same online-offline reconstruction.
+Physics analysis can be performed directly on the trigger output with the same online-offline performance.
+

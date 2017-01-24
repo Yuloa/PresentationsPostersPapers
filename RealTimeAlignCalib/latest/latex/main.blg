@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: LHCb.bst
+Database file #1: main.bib
+Database file #2: LHCb-PAPER.bib
+Database file #3: LHCb-CONF.bib
+Database file #4: LHCb-DP.bib
+Database file #5: LHCb-TDR.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Sean"
+Warning--I didn't find a database entry for "PDG"
+Warning--I didn't find a database entry for "Hulsbergen"
+Warning--I didn't find a database entry for "AlignConstraints"
+Warning--I didn't find a database entry for "Sobel"
+You've used 15 entries,
+            2813 wiz_defined-function locations,
+            770 strings with 7472 characters,
+and the built_in function-call counts, 63495 in all, are:
+= -- 6930
+> -- 127
+< -- 0
++ -- 457
+- -- 31
+* -- 6373
+:= -- 7964
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 1181
+empty$ -- 6619
+format.name$ -- 31
+if$ -- 13802
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 75
+newline$ -- 101
+num.names$ -- 15
+pop$ -- 271
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 112
+stack$ -- 0
+substring$ -- 18604
+swap$ -- 0
+text.length$ -- 30
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 430
+width$ -- 17
+write$ -- 249
+(There were 6 warnings)
